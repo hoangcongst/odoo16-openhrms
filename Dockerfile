@@ -1,4 +1,4 @@
-FROM odoo:16.0
+FROM odoo:15.0
 USER root
 RUN apt update && apt install python3-pip && pip3 install pandas \
     && apt install -y --no-install-recommends \
